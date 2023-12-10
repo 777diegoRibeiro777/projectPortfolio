@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/mediaqueries.css">
+        <link rel="stylesheet" href="./assets/css/background.css">
+        <link rel="shortcut icon" href="/assets/img/logomarcaDR.png" type="image/x-icon">
+        <title>Diego Ribeiro</title>
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo"><img src="./assets/img/logomarcaDR.png" alt="" id="logo"></div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo"><img src="./assets/img/logomarcaDR.png" alt="" id="logo"></div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/img/diegoIMG.png" alt="foto de perfil Diego Ribeiro">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Olá, eu sou</p>
+                <h1 class="title">Diego Ribeiro</h1>
+                <p class="section__text__p2">Desenvolvedor Fullstack</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/Diego_Alves_Currículo (1).pdf')">Download Currículo</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Informações de Contato</button>
+                </div>
+                <div id="socials-container">
+                    <a href="https://www.linkedin.com/in/diego-ribeiro-127590237/" target="_blank">
+                        <img src="./assets/img/linkedin.png" alt="Meu perfil do Linkedin" class="icon">
+                    </a>
+                    <a href="https://github.com/777diegoRibeiro777" target="_blank">
+                        <img src="./assets/img/github.png" alt="Meu perfil do Github" class="icon" >
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Descubra mais</p>
+            <h1 class="title">Sobre mim</h1>
+            <div class="section-container">
+                <div class="section__pic-container"><img src="./assets/img/pixelART.png" alt="" class="about-pic"></div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/img/experience.png" alt="ícone de experiência" class="icon">
+                            <h3>Experiência profissional</h3>
+                            <p>2 anos <br>Professor de Robótica educacional</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/img/education.png" alt="ícone de educação" class="icon">
+                            <h3>Educação</h3>
+                            <p>Sistemas para internet <br>Descomplica Faculdade Digital<br>Janeiro de 2022 - Junho de 2024 </p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Olá! Sou um desenvolvedor com uma energia tão intensa quanto a cafeína que flui nas minhas veias. Um entusiasta da tecnologia que encontra alegria tanto na construção de sólidas arquiteturas de backend quanto na criação de experiências de usuário intuitivas no frontend. Atualmente moro em Aracaju-SE, vamos tomar um café e discutir sobre um novo projeto?</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Saiba minhas</p>
+            <h1 class="title">Skills</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Hard Skills</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/img/checkmark.png" alt="icone de check" class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/img/checkmark.png" alt="icone de check" class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/img/checkmark.png" alt="icone de check" class="icon">
+                                <div>
+                                    <h3>JAVASCRIPT</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/img/checkmark.png" alt="icone de check" class="icon">
+                                <div>
+                                    <h3>C#</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/img/checkmark.png" alt="icone de check" class="icon">
+                                <div>
+                                    <h3>SQL</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/img/checkmark.png" alt="icone de check" class="icon">
+                                <div>
+                                    <h3>BOOTSTRAP</h3>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Soft Skills</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/img/checkmark.png" alt="icone de check" class="icon">
+                                <div>
+                                    <h3>COMUNICATIVO</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/img/checkmark.png" alt="icone de check" class="icon">
+                                <div>
+                                    <h3>PROATIVO</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/img/checkmark.png" alt="icone de check" class="icon">
+                                <div>
+                                    <h3>MATURIDADE EMOCIONAL</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/img/checkmark.png" alt="icone de check" class="icon">
+                                <div>
+                                    <h3>FALAR EM PÚBLICO</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/img/checkmark.png" alt="icone de check" class="icon">
+                                <div>
+                                    <h3>EMPÁTICO</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/img/checkmark.png" alt="icone de check" class="icon">
+                                <div>
+                                    <h3>INGLÊS</h3>
+                                    <p>Intermediário</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+        </section>
+        <section id="projects">
+            <p class="section__text__p1">Descubra meus</p>
+            <h1 class="title">Projetos</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/img/viaCEP.png" alt="projeto 1" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">ViaCEP</h2>
+                        <div class="btn-container">
+                            <a href="https://github.com/777diegoRibeiro777/ViaCep" target="_blank">
+                                <button class="btn btn-color-2 project-btn">
+                                    Github
+                                </button>
+                            </a>
+                            <a href="https://777diegoribeiro777.github.io/ViaCep/" target="_blank">
+                                <button class="btn btn-color-2 project-btn">
+                                    Projeto
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/img/previsaoTempo.png" alt="projeto 1" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Radar Meteorológico</h2>
+                        <div class="btn-container">
+                            <a href="https://github.com/777diegoRibeiro777/previsaoTempo" target="_blank">
+                                <button class="btn btn-color-2 project-btn">
+                                    Github
+                                </button>
+                            </a>
+                            <a href="https://777diegoribeiro777.github.io/previsaoTempo/" target="_blank">
+                                <button class="btn btn-color-2 project-btn">
+                                    Projeto
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/img/relogioDigital.png" alt="projeto 1" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Relógio Digital</h2>
+                        <div class="btn-container">
+                            <a href="https://github.com/777diegoRibeiro777/relogioDigital" target="_blank">
+                                <button class="btn btn-color-2 project-btn">
+                                    Github
+                                </button>
+                            </a>
+                            <a href="https://777diegoribeiro777.github.io/relogioDigital/" target="_blank">
+                                <button class="btn btn-color-2 project-btn">
+                                    Projeto
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Entre em</p>
+            <h1 class="title">Contato</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/img/email.png" alt="icone de email" class="icon contact-icon email-icon">
+                    <p>diegoaribeiro1910@gmail.com</p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/img/phone-call_455705.png" alt="linkedin icone" class="icon contact-icon">
+                    <p>(79) 98112-5546</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#experience">Skills</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2023 Diego Ribeiro. Todos os direitos reservados.</p>
+        </footer>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
